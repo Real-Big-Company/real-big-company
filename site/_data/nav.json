@@ -2,58 +2,33 @@
   "logo": "/images/logo.svg",
   "items": [
     {
-      "text": "Home",
+      "text": "About",
       "link": "/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
-      "text": "Feature",
-      "link": "/feature/",
+      "text": "News",
+      "link": "/news/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
-      "text": "Pricing",
-      "link": "/pricing/",
+      "text": "Reports",
+      "link": "/reports/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
-      "text": "About",
-      "link": "/about/",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "text": "Blog",
-      "link": "/blog/",
-      "enable_dropdown": true,
-      "dropdown": [
-        {
-          "dropdown_text": "All Articles",
-          "dropdown_link": "/blog"
-        },
-        {
-          "dropdown_text": "Marketing",
-          "dropdown_link": "/tags/marketing/"
-        },
-        {
-          "dropdown_text": "Technology",
-          "dropdown_link": "/tags/technology/"
-        }
-      ]
-    },
-    {
-      "text": "Contact",
-      "link": "/contact/",
+      "text": "Divisions",
+      "link": "/divisions/",
       "enable_dropdown": false,
       "dropdown": []
     }
   ],
-  "enable_nav_btn": true,
+  "enable_nav_btn": false,
   "nav_btn": {
-    "text": "Get Started",
-    "link": "/signup/"
+    "text": "-",
+    "link": "/-/"
   }
 }

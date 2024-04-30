@@ -1,26 +1,22 @@
 source: site
 collections_config_override: true
-data_config:
-  blog-tags: true
 collections_config:
   pages:
     icon: feed
+    disable_add: true
     disable_add_folder: true
     output: true
     path: pages
-    schemas:
-      default:
-        path: site/schemas/page.html
     _enabled_editors:
       - visual
-  blog:
-    path: blog
+  news:
+    path: news
     icon: article
     disable_add_folder: true
     output: true
     schemas:
       default:
-        path: site/schemas/post.md
+        path: site/schemas/news.md
     preview:
       metadata: 
         - icon: newspaper
@@ -199,10 +195,6 @@ _inputs:
   permalink:
     type: text
     comment: Prefix the url with a forward slash e.g. /blog/
-  tags:
-    type: multiselect
-    options: 
-      values: data.blog-tags
   layout:
     hidden: true
   eleventyExcludeFromCollections:

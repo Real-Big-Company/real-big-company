@@ -1,22 +1,22 @@
 ---
-date: 2022-03-07
-title: Email delivery tips
+date: 2022-04-14
+title: 7 things you didn't know about email
 post_permalink: /blog/{{ title | slugify }}/
-layout: layouts/blog-single.liquid
+layout: layouts/news-single.liquid
 tags:
-  - email
+  - marketing
   - blog
-author: Gerard Hopper
+author: Miyah Kelley
 thumbImg:
-  image: /images/blog/blog-thumb-1.jpg
-  image_alt: Arial shot of people working
+  image: /images/blog/blog-thumb-5.jpg
+  image_alt: Group of people discussing something shwon on a laptop
 featuredImg:
-  image: /images/blog/featured-image-1.jpg
-  image_alt: Child using a computer
+  image: /images/blog/featured-image-3.jpg
+  image_alt: Person drinking coffee
 seo:
   page_description: 
   canonical_url: 
-  featured_image: /images/blog/featured-image-1.jpg
+  featured_image: /images/blog/featured-image-3.jpg
   author_twitter_handle: 
   open_graph_type: article
   no_index: false

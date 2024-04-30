@@ -1,22 +1,22 @@
 ---
 date: 2022-03-07
-title: How to host better email marketing campaigns?
+title: Email delivery tips
 post_permalink: /blog/{{ title | slugify }}/
-layout: layouts/blog-single.liquid
+layout: layouts/news-single.liquid
 tags:
-  - marketing
+  - email
   - blog
-author: Arther Conal
+author: Gerard Hopper
 thumbImg:
-  image: /images/blog/blog-thumb-2.jpg
-  image_alt: People conversing
+  image: /images/blog/blog-thumb-1.jpg
+  image_alt: Arial shot of people working
 featuredImg:
-  image: /images/blog/featured-image-2.jpg
-  image_alt: Children looking at a computer
+  image: /images/blog/featured-image-1.jpg
+  image_alt: Child using a computer
 seo:
   page_description: 
   canonical_url: 
-  featured_image: /images/blog/featured-image-2.jpg
+  featured_image: /images/blog/featured-image-1.jpg
   author_twitter_handle: 
   open_graph_type: article
   no_index: false

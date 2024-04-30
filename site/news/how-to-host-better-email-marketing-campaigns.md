@@ -1,28 +1,28 @@
 ---
-_schema: default
-date: 2023-08-17T00:00:00Z
-title: 5 things to improve you email templates
+date: 2022-03-07
+title: How to host better email marketing campaigns?
 post_permalink: /blog/{{ title | slugify }}/
-seo:
-  page_description:
-  canonical_url:
-  featured_image: /images/blog/featured-image-2.jpg
-  author_twitter_handle:
-  open_graph_type: article
-  no_index: false
-layout: layouts/blog-single.liquid
+layout: layouts/news-single.liquid
 tags:
   - marketing
   - blog
-author: Aaron Britt
+author: Arther Conal
 thumbImg:
-  image: /images/blog/blog-thumb-6.jpg
-  image_alt: People working on laptops and looking at charts
+  image: /images/blog/blog-thumb-2.jpg
+  image_alt: People conversing
 featuredImg:
   image: /images/blog/featured-image-2.jpg
-  image_alt: Children looking at a laptop
+  image_alt: Children looking at a computer
+seo:
+  page_description: 
+  canonical_url: 
+  featured_image: /images/blog/featured-image-2.jpg
+  author_twitter_handle: 
+  open_graph_type: article
+  no_index: false
 draft: false
 ---
+
 When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers' spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.
 
 ### Use an ESP
