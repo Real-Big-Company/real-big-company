@@ -1,0 +1,35 @@
+<section class="about-hero-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-lg-10 mx-auto">
+        <div class="about-hero-two-content position-relative">
+          <h2>{{title}}</h2>
+          {{description | markdownify}}
+          <div
+            class="scroll-down d-flex justify-content-center justify-content-xl-start"
+          >
+            <a href="{{button.link}}" class="btn btn-primary btn-lg">
+              {{button.text}}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-12">
+        <div class="about-hero-two-banner">
+        {% for item in hero_images %}
+          <div class="{% if item.placement == "front_bottom" %}
+          image-one
+        {% elsif item.placement == "back_top_right" %}
+          image-two
+        {% elsif item.placement == "back_top_left" %}
+          image-three
+        {% endif %}">
+            <img src="{{item.image}}" alt="{{item.image_alt}}" loading="lazy"/>
+          </div>
+        {% endfor %}
+          <div class="pattern"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
