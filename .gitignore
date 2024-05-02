@@ -6,3 +6,4 @@ _site
 site/css/*
 .vscode
 .yarn
+component-library
