@@ -1,11 +1,6 @@
 ---
 date: 2022-03-07
 title: Best email sending services
-post_permalink: /blog/{{ title | slugify }}/
-layout: layouts/news-single.liquid
-tags:
-  - technology
-  - blog
 author: Wendy Parkes
 thumbImg:
   image: /images/blog/blog-thumb-3.jpg

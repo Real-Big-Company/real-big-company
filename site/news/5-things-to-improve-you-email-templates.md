@@ -2,7 +2,6 @@
 _schema: default
 date: 2023-08-17T00:00:00Z
 title: 5 things to improve you email templates
-post_permalink: /blog/{{ title | slugify }}/
 seo:
   page_description:
   canonical_url:
@@ -10,10 +9,6 @@ seo:
   author_twitter_handle:
   open_graph_type: article
   no_index: false
-layout: layouts/news-single.liquid
-tags:
-  - marketing
-  - blog
 author: Aaron Britt
 thumbImg:
   image: /images/blog/blog-thumb-6.jpg

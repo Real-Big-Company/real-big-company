@@ -1,11 +1,6 @@
 ---
 date: 2022-03-07
 title: How to host better email marketing campaigns?
-post_permalink: /blog/{{ title | slugify }}/
-layout: layouts/news-single.liquid
-tags:
-  - marketing
-  - blog
 author: Arther Conal
 thumbImg:
   image: /images/blog/blog-thumb-2.jpg

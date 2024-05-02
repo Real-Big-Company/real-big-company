@@ -2,7 +2,6 @@
 _schema: default
 date: 2022-03-07T00:00:00Z
 title: What are the best email clients?
-post_permalink: /blog/{{ title | slugify }}/
 seo:
   page_description:
   canonical_url:
@@ -10,10 +9,6 @@ seo:
   author_twitter_handle:
   open_graph_type: article
   no_index: false
-layout: layouts/news-single.liquid
-tags:
-  - marketing
-  - blog
 author: Wendy Parkes
 thumbImg:
   image: /images/blog/blog-thumb-4.jpg

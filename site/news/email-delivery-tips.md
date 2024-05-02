@@ -1,11 +1,6 @@
 ---
 date: 2022-03-07
 title: Email delivery tips
-post_permalink: /blog/{{ title | slugify }}/
-layout: layouts/news-single.liquid
-tags:
-  - email
-  - blog
 author: Gerard Hopper
 thumbImg:
   image: /images/blog/blog-thumb-1.jpg

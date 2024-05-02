@@ -12,6 +12,7 @@ function showDraft(data) {
 
 module.exports = {
   layout: "layouts/news-single.liquid",
+  tags: ["news"],
   eleventyComputed: {
     eleventyExcludeFromCollections: function (data) {
       if (showDraft(data)) {
