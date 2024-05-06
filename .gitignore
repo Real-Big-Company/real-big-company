@@ -7,3 +7,4 @@ site/css/*
 .vscode
 .yarn
 component-library
+data-lake

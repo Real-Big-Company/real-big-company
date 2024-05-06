@@ -4,3 +4,5 @@
 # On CloudCannon, this will use Site Mounting.
 
 [ ! -e component-library ] && ln -s ../component-library component-library
+
+[ ! -e data-lake ] && ln -s ../data-lake/api data-lake

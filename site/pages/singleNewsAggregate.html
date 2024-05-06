@@ -1,0 +1,8 @@
+---
+layout: custom_layouts/news-single.liquid
+pagination:
+  data: eleventyComputed.aggregateNews
+  size: 1
+  alias: post
+permalink: "news/{{ post.data.division | slugify}}/{{ post.data.title | slugify }}/"
+---

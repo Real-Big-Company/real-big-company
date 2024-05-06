@@ -1,0 +1,41 @@
+{% include './layouts/head.liquid' %}
+<main>
+   <section class="blog-hero pt-xl-22 pt-sm-20 pt-18 pb-xxl-25 pb-xl-23 pb-22 position-relative">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+               <div class="blog-hero-content">
+                  <h1 class="blog-hero-title">Latest earnings for all RealBig divisions</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="blog @@padding @@blog-two">
+      <div class="container">
+         <div class="row">
+         <ul>
+         {% for blog in reports %}
+            <li class="col-lg-6 mx-auto c" style="list-style-type: bullet">
+               <article class="blog-post">
+                  <div class="blog-post-thumb">
+                     <a href="{{ blog.url }}">
+                        <img src="{{ blog.data.thumbImg.image }}" alt="{{ blog.data.thumbImg.image_alt }}" loading="lazy" />
+                     </a>
+                  </div>
+                  <div class="blog-post-content">
+                     <div class="blog-post-tag @@category">
+                        <a href="/tags/{{ blog.data.division }}/">{{ blog.data.division }}</a>
+                     </div>
+                     <div class="blog-post-title">
+                        <a href="{{ blog.url }}" class="">{{blog.data.title}}</a>
+                     </div>
+                  </div>
+               </article>
+            </li>
+         {% endfor %}
+         </ul>
+      </div>
+   </section>
+</main>
+{% include './layouts/tail.liquid' %}
