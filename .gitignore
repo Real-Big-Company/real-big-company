@@ -8,3 +8,4 @@ site/css/*
 .yarn
 component-library
 data-lake
+site/_includes/layouts
