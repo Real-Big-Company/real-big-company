@@ -11,38 +11,42 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: This Company is Real Big
+    title: About this site
     description: >-
-      It's so big, in fact, that this parent website needs to syndicate news
-      content from a variety of smaller sites.
+      This site was created as part of the Inaugural International [11ty
+      Symposium](https://conf.11ty.dev/) on Making Websites Real Good. The
+      organization and syndication of the content on this site demonstrates
+      features of [CloudCannon’s Git-based headless
+      CMS](https://cloudcannon.com/) and the open-source static API generator
+      [Flatlake](https://flatlake.app/).
 
 
-      And our loyal team of content editors need consistent layouts and
-      page-building components to use, regardless of which site they're working
-      on.
+      (The content itself — fictional news articles and earnings reports for
+      undisclosed financial quarters — is mostly nonsense. But it was fun to
+      write.)
+
+
+      The main site of this network, realbig.company, aggregates and
+      redistributes news articles from each of its subsidiary sites, using
+      Flatlake.
+
+
+      Using CloudCannon’s [Site
+      Mounting](https://cloudcannon.com/documentation/articles/site-mounting/)
+      feature, each of the subsidiary sites shares a common source folder of
+      page components, meaning that content editors on any one of the sites have
+      access to exactly the same page elements. Similarly, Site Mounting allows
+      for multiple sites to share the same layout files, for a cohesive visual
+      identity.
+
+
+      For a less fictional example of how these approaches might work, and a
+      more detailed explanation, see
+      [https://cloudcannon.com/blog/how-to-manage-hundreds-of-connected-websites-with-a-git-based-headless-cms/](https://cloudcannon.com/blog/how-to-manage-hundreds-of-connected-websites-with-a-git-based-headless-cms/)
     image:
     image_alt:
     button:
-      text: Let's look at the news
-      url: /news/
-  - _bookshop_name: global/testimonial
-    title: Who made this?
-    title_suffix:
-    description: ''
-    slider:
-      - image: /images/liam-bigelow.jpeg
-        image_alt: Profile photo of Liam Bigelow
-        author: Liam Bigelow
-        designation: '@bglw@fosstodon.org'
-        message:
-      - image: /images/david-large-1.jpg
-        image_alt: Profile photo of David Large
-        author: David Large
-        designation: '@avidlarge@fosstodon.org'
-        message:
-      - image: /images/cloudcannon-logo-white-circle.png
-        image_alt: CloudCannon logo
-        author: CloudCannon
-        designation: Git-based Headless CMS
-        message:
+      text: Find out more
+      url: >-
+        https://cloudcannon.com/blog/how-to-manage-hundreds-of-connected-websites-with-a-git-based-headless-cms/
 ---

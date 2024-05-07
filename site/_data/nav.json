@@ -3,7 +3,7 @@
   "items": [
     {
       "text": "About",
-      "link": "/",
+      "link": "/about/",
       "enable_dropdown": false,
       "dropdown": []
     },
