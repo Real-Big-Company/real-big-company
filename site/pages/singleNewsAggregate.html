@@ -1,7 +1,7 @@
 ---
 layout: custom_layouts/news-single.liquid
 pagination:
-  data: eleventyComputed.aggregateNews
+  data: eleventyComputed.syndicatedNews
   size: 1
   alias: post
 permalink: "news/{{ post.data.division | slugify}}/{{ post.data.title | slugify }}/"
