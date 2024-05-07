@@ -8,12 +8,14 @@ const MarkdownIt = require("markdown-it"),
   });
 
 module.exports = function (eleventyConfig) {
-
   eleventyConfig.addFilter("length", (input) => {
     return input.length;
   });
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
+  eleventyConfig.addFilter("stringDate", (dateObj) => {
+    return DateTime.fromISO(dateObj).toLocaleString(DateTime.DATE_MED);
   });
   eleventyConfig.addPlugin(emojiReadTime, {
     showEmoji: false,
