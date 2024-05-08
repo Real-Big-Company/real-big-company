@@ -1,6 +1,6 @@
 {% include './layouts/head.liquid' %}
 <main>
-   <section class="blog-hero pt-xl-22 pt-sm-20 pt-18 pb-xxl-25 pb-xl-23 pb-22 position-relative">
+   <section class="blog-hero pt-xl-22 pt-sm-20 pt-18 position-relative">
       <div class="container">
          <div class="row">
             <div class="col-xl-8 col-lg-10 mx-auto">
@@ -11,15 +11,16 @@
          </div>
       </div>
    </section>
-   <section class="blog @@padding @@blog-two">
+   <section class="blog report @@padding @@blog-two">
       <div class="container">
          <div class="row">
          <ul>
          {% for blog in reports %}
-            <li class="col-lg-6 mx-auto c" style="list-style-type: bullet">
+            {% capture report_url %}{{ blog.data.division_url }}/reports/{{ blog.url | filename }}/{% endcapture %}
+            <li class="col-lg-6 mx-auto c">
                <article class="blog-post">
                   <div class="blog-post-thumb">
-                     <a href="{{ blog.url }}">
+                     <a href="{{ report_url }}">
                         <img src="{{ blog.data.thumbImg.image }}" alt="{{ blog.data.thumbImg.image_alt }}" loading="lazy" />
                      </a>
                   </div>
@@ -28,7 +29,7 @@
                         <span href="/tags/{{ blog.data.division }}/">{{ blog.data.division | upcase }}</span>
                      </div>
                      <div class="blog-post-title">
-                        <a href="{{ blog.url }}" class="">{{blog.data.title}}</a>
+                        <a href="{{ report_url }}" class="">{{blog.data.title}}</a>
                      </div>
                   </div>
                </article>

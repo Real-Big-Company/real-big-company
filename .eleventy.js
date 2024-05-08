@@ -14,8 +14,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
-  eleventyConfig.addFilter("stringDate", (dateObj) => {
-    return DateTime.fromISO(dateObj).toLocaleString(DateTime.DATE_MED);
+  eleventyConfig.addFilter("stringDate", (dateStr) => {
+    return DateTime.fromISO(dateStr).toLocaleString(DateTime.DATE_MED);
+  });
+  eleventyConfig.addFilter("filename", (url) => {
+    return url.match(/\/([^\/]+)\.\w+$/)?.[1] || "unknown";
   });
   eleventyConfig.addPlugin(emojiReadTime, {
     showEmoji: false,
