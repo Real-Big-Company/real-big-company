@@ -25,7 +25,7 @@
                   </div>
                   <div class="blog-post-content">
                      <div class="blog-post-tag @@category">
-                        <a href="/tags/{{ blog.data.division }}/">{{ blog.data.division }}</a>
+                        <span href="/tags/{{ blog.data.division }}/">{{ blog.data.division | upcase }}</span>
                      </div>
                      <div class="blog-post-title">
                         <a href="{{ blog.url }}" class="">{{blog.data.title}}</a>
