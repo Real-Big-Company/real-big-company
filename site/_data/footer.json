@@ -11,14 +11,6 @@
           "link": "/"
         },
         {
-          "text": "Feature",
-          "link": "/feature"
-        },
-        {
-          "text": "Price",
-          "link": "/pricing"
-        },
-        {
           "text": "About",
           "link": "/about"
         }
