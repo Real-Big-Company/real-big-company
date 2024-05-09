@@ -1,10 +1,26 @@
 {
   "logo": "/images/footer-logo.svg",
-  "copyright": "MyCompany, All rights reserved!",
-  "social": [],
+  "copyright": "RealBig Company",
+  "social": [
+    {
+      "link": "https://conf.11ty.dev/",
+      "icon": "🎈",
+      "icon_alt": "11ty"
+    },
+    {
+      "link": "https://cloudcannon.com/",
+      "icon": "☁️",
+      "icon_alt": "CloudCannon"
+    },
+    {
+      "link": "https://github.com/Real-Big-Company",
+      "icon": "GitHub",
+      "icon_alt": "Real Big Company"
+    }
+  ],
   "sections": [
     {
-      "title": "Main Pages",
+      "title": "Sections",
       "links": [
         {
           "text": "Home",
@@ -12,7 +28,19 @@
         },
         {
           "text": "About",
-          "link": "/about"
+          "link": "/about/"
+        },
+        {
+          "text": "News",
+          "link": "/news/"
+        },
+        {
+          "text": "Reports",
+          "link": "/reports/"
+        },
+        {
+          "text": "Divisions",
+          "link": "/divisions/"
         }
       ]
     }
