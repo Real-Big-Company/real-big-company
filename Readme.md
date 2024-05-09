@@ -1,50 +1,28 @@
-# Sendit
+# Real Big Company
 
-Sendit is a polished, marketing website template for Eleventy. Browse through a [live demo](https://potent-ship.cloudvent.net/).
+This site was created as part of the Inaugural International [11ty
+Symposium](https://conf.11ty.dev/) on Making Websites Real Good. The
+organization and syndication of the content on this site demonstrates
+features of [CloudCannon’s Git-based headless
+CMS](https://cloudcannon.com/) and the open-source static API generator
+[Flatlake](https://flatlake.app/).
 
-![Sendit template screenshot](/site/images/_screenshot.png)
+(The content itself — fictional news articles and earnings reports for
+undisclosed financial quarters — is mostly nonsense. But it was fun to
+write.)
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-eleventy-template)
+The main site of this network, realbig.company, aggregates and
+redistributes news articles from each of its subsidiary sites, using
+Flatlake.
 
-## Features
+Using CloudCannon’s [Site
+Mounting](https://cloudcannon.com/documentation/articles/site-mounting/)
+feature, each of the subsidiary sites shares a common source folder of
+page components, meaning that content editors on any one of the sites have
+access to exactly the same page elements. Similarly, Site Mounting allows
+for multiple sites to share the same layout files, for a cohesive visual
+identity.
 
-- Pre-built pages
-- Pre-styled components
-- Blog with pagination and category pages
-- Configurable navigation and footer
-- Multiple hero options
-- Configurable theme colors
-- Optimised for editing in CloudCannon
-
-## Setup
-
-Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or locally).
-
-## Prerequisites
-
-## Quickstart
-
-2. Run `npm i` to install the modules.
-3. Run `npm run start` to run the project. this will create a \_site folder, where all the developed file will remain.
-
-By default the site will be at `http://localhost:8080`
-
-## Editing
-
-Sendit is set up for adding, updating and removing pages, components, posts, navigation and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-### Nav/footer details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Navigation* section with respective names
-
-### SEO details and favicon
-
-* Favicon and site SEO details are set in the *Data* / *Site* section
-* SEO details can also be set in pages for page specific details
-
-### Theme colors
-
-* Theme colors can be set in *Theme Palette* / *Theme*
-* The main colors are set and variants of them are computed
-* The colors will update on the next build
+For a less fictional example of how these approaches might work, and a
+more detailed explanation, see
+[https://cloudcannon.com/blog/how-to-manage-hundreds-of-connected-websites-with-a-git-based-headless-cms/](https://cloudcannon.com/blog/how-to-manage-hundreds-of-connected-websites-with-a-git-based-headless-cms/)
